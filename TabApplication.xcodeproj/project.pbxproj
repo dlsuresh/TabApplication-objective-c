@@ -15,6 +15,8 @@
 		F6A4324B1E56B36A00C72039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A432491E56B36A00C72039 /* LaunchScreen.storyboard */; };
 		F6A432561E56B36A00C72039 /* TabApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A432551E56B36A00C72039 /* TabApplicationTests.m */; };
 		F6A432611E56B36A00C72039 /* TabApplicationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A432601E56B36A00C72039 /* TabApplicationUITests.m */; };
+		F6A432711E56C07B00C72039 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A432701E56C07B00C72039 /* PickerViewController.m */; };
+		F6A432751E56CEDA00C72039 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A432741E56CEDA00C72039 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		F6A4325C1E56B36A00C72039 /* TabApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A432601E56B36A00C72039 /* TabApplicationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabApplicationUITests.m; sourceTree = "<group>"; };
 		F6A432621E56B36A00C72039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A4326F1E56C07B00C72039 /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		F6A432701E56C07B00C72039 /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		F6A432731E56CEDA00C72039 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		F6A432741E56CEDA00C72039 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				F6A4323F1E56B36A00C72039 /* AppDelegate.m */,
 				F6A432411E56B36A00C72039 /* ViewController.h */,
 				F6A432421E56B36A00C72039 /* ViewController.m */,
+				F6A4326F1E56C07B00C72039 /* PickerViewController.h */,
+				F6A432701E56C07B00C72039 /* PickerViewController.m */,
+				F6A432731E56CEDA00C72039 /* WebViewController.h */,
+				F6A432741E56CEDA00C72039 /* WebViewController.m */,
 				F6A432441E56B36A00C72039 /* Main.storyboard */,
 				F6A432471E56B36A00C72039 /* Assets.xcassets */,
 				F6A432491E56B36A00C72039 /* LaunchScreen.storyboard */,
@@ -274,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6A432431E56B36A00C72039 /* ViewController.m in Sources */,
+				F6A432751E56CEDA00C72039 /* WebViewController.m in Sources */,
 				F6A432401E56B36A00C72039 /* AppDelegate.m in Sources */,
+				F6A432711E56C07B00C72039 /* PickerViewController.m in Sources */,
 				F6A4323D1E56B36A00C72039 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TabApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NeoRays.TabApplication;
@@ -435,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TabApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NeoRays.TabApplication;
@@ -507,6 +521,7 @@
 				F6A432671E56B36A00C72039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6A432681E56B36A00C72039 /* Build configuration list for PBXNativeTarget "TabApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				F6A4326A1E56B36A00C72039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6A4326B1E56B36A00C72039 /* Build configuration list for PBXNativeTarget "TabApplicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +539,7 @@
 				F6A4326D1E56B36A00C72039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
